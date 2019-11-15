@@ -244,7 +244,7 @@ Twisted==18.7.0
 typed-ast==1.1.0
 typing==3.6.6
 unicodecsv==0.14.1
-urllib3==1.23
+urllib3==1.24.2
 vine==1.2.0
 virtualenv==16.4.3
 w3lib==1.21.0

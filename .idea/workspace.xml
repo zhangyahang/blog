@@ -1,0 +1,1049 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2e6d44f0-5354-4cdb-ac92-b18069edf3fc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/article/form.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/article/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/article/migrations/0002_articlepost_total_views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/article/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/article/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/comment/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/comment/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/comment/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/comment/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storm/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/article/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/article/detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/article/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/article/update.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/userprofile/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/userprofile/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/userprofile/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userprofile/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userprofile/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userprofile/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userprofile/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../learning_log/media/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebServer/最新/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../WebServer/最新/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebServer/最新/nopigeon_login1.html" beforeDir="false" afterPath="$PROJECT_DIR$/../WebServer/最新/nopigeon_login1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebServer/最新/register_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/../WebServer/最新/register_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../django-bootstrap-master/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/.idea/learning_log.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/.idea/learning_log.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/learning_log/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/learning_log/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/learning_logs/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/learning_logs/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/learning_logs/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/learning_logs/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/Django-2.2b1.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/Django-2.2b1.dist-info/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/Django-2.2b1.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/Django-2.2b1.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/Django-2.2b1.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/Django-2.2b1.dist-info/entry_points.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/Django-2.2b1.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/apps/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/apps/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/apps/registry.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/apps/registry.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/conf/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/conf/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/conf/global_settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/conf/global_settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/conf/locale/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/conf/locale/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/conf/locale/en/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/conf/locale/en/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/conf/locale/hy/LC_MESSAGES/django.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/conf/locale/hy/LC_MESSAGES/django.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/conf/locale/it/formats.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/conf/locale/it/formats.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/conf/locale/pl/formats.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/conf/locale/pl/formats.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/conf/project_template/manage.py-tpl" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/conf/project_template/manage.py-tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/conf/urls/static.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/conf/urls/static.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/admin/checks.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/admin/checks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/admin/filters.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/admin/filters.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/admin/helpers.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/admin/helpers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/admin/locale/en/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/admin/locale/en/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/admin/locale/hy/LC_MESSAGES/django.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/admin/locale/hy/LC_MESSAGES/django.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/admin/locale/hy/LC_MESSAGES/djangojs.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/admin/locale/hy/LC_MESSAGES/djangojs.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/admin/options.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/admin/options.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/admin/sites.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/admin/sites.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/admin/static/admin/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/admin/static/admin/css/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/admin/static/admin/css/forms.css" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/admin/static/admin/css/forms.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/admin/static/admin/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/admin/static/admin/css/responsive.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/admin/static/admin/css/responsive_rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/admin/static/admin/css/responsive_rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/admin/static/admin/css/rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/admin/static/admin/css/rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/admin/static/admin/fonts/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/admin/static/admin/fonts/README.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/admin/static/admin/fonts/Roboto-Bold-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/admin/static/admin/fonts/Roboto-Bold-webfont.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/admin/static/admin/fonts/Roboto-Light-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/admin/static/admin/fonts/Roboto-Light-webfont.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/admin/static/admin/fonts/Roboto-Regular-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/admin/static/admin/fonts/Roboto-Regular-webfont.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/admin/static/admin/js/SelectFilter2.js" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/admin/static/admin/js/SelectFilter2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/admin/static/admin/js/admin/DateTimeShortcuts.js" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/admin/static/admin/js/admin/DateTimeShortcuts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/admin/static/admin/js/collapse.js" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/admin/static/admin/js/collapse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/admin/templates/admin/change_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/admin/templates/admin/change_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/admin/templates/admin/change_list_results.html" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/admin/templates/admin/change_list_results.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/admin/templates/admin/edit_inline/stacked.html" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/admin/templates/admin/edit_inline/stacked.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/admin/templates/admin/edit_inline/tabular.html" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/admin/templates/admin/edit_inline/tabular.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/admin/templates/admin/popup_response.html" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/admin/templates/admin/popup_response.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/admin/templates/admin/submit_line.html" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/admin/templates/admin/submit_line.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/admin/templates/admin/widgets/related_widget_wrapper.html" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/admin/templates/admin/widgets/related_widget_wrapper.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/admin/templatetags/admin_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/admin/templatetags/admin_list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/admin/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/admin/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/admin/views/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/admin/views/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/admin/widgets.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/admin/widgets.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/admindocs/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/admindocs/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/admindocs/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/admindocs/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/auth/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/auth/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/auth/backends.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/auth/backends.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/auth/base_user.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/auth/base_user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/auth/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/auth/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/auth/handlers/modwsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/auth/handlers/modwsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/auth/hashers.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/auth/hashers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/auth/locale/hy/LC_MESSAGES/django.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/auth/locale/hy/LC_MESSAGES/django.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/auth/management/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/auth/management/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/auth/management/commands/changepassword.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/auth/management/commands/changepassword.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/auth/management/commands/createsuperuser.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/auth/management/commands/createsuperuser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/auth/migrations/0010_alter_group_name_max_length.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/auth/migrations/0011_update_proxy_permissions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/auth/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/auth/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/auth/tokens.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/auth/tokens.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/contenttypes/fields.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/contenttypes/fields.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/contenttypes/locale/hy/LC_MESSAGES/django.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/contenttypes/locale/hy/LC_MESSAGES/django.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/contenttypes/management/commands/remove_stale_contenttypes.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/contenttypes/management/commands/remove_stale_contenttypes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/contenttypes/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/contenttypes/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/contenttypes/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/contenttypes/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/flatpages/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/flatpages/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/flatpages/locale/en/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/flatpages/locale/en/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/flatpages/locale/hy/LC_MESSAGES/django.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/flatpages/locale/hy/LC_MESSAGES/django.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/gis/admin/options.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/gis/admin/options.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/gis/db/backends/mysql/features.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/gis/db/backends/mysql/features.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/gis/db/backends/mysql/introspection.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/gis/db/backends/mysql/introspection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/gis/db/backends/mysql/operations.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/gis/db/backends/mysql/operations.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/gis/db/backends/oracle/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/gis/db/backends/oracle/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/gis/db/backends/oracle/operations.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/gis/db/backends/oracle/operations.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/gis/db/backends/postgis/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/gis/db/backends/postgis/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/gis/db/backends/postgis/operations.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/gis/db/backends/postgis/operations.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/gis/db/backends/postgis/schema.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/gis/db/backends/postgis/schema.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/gis/db/backends/spatialite/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/gis/db/backends/spatialite/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/gis/db/backends/spatialite/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/gis/db/backends/spatialite/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/gis/db/backends/spatialite/operations.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/gis/db/backends/spatialite/operations.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/gis/db/models/aggregates.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/gis/db/models/aggregates.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/gis/db/models/fields.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/gis/db/models/fields.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/gis/db/models/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/gis/db/models/functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/gis/feeds.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/gis/feeds.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/gis/forms/fields.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/gis/forms/fields.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/gis/gdal/geometries.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/gis/gdal/geometries.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/gis/gdal/geomtype.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/gis/gdal/geomtype.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/gis/gdal/libgdal.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/gis/gdal/libgdal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/gis/gdal/prototypes/raster.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/gis/gdal/prototypes/raster.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/gis/gdal/raster/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/gis/gdal/raster/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/gis/geos/geometry.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/gis/geos/geometry.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/gis/geos/mutable_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/gis/geos/mutable_list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/gis/geos/point.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/gis/geos/point.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/gis/geos/polygon.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/gis/geos/polygon.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/gis/locale/hy/LC_MESSAGES/django.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/gis/locale/hy/LC_MESSAGES/django.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/gis/management/commands/ogrinspect.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/gis/management/commands/ogrinspect.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/gis/ptr.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/gis/ptr.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/gis/serializers/geojson.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/gis/serializers/geojson.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/gis/utils/layermapping.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/gis/utils/layermapping.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/gis/utils/srs.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/gis/utils/srs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/humanize/locale/en/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/humanize/locale/en/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/humanize/locale/hy/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/humanize/locale/hy/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/humanize/locale/hy/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/humanize/locale/hy/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/humanize/templatetags/humanize.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/humanize/templatetags/humanize.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/postgres/aggregates/general.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/postgres/aggregates/general.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/postgres/aggregates/mixins.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/postgres/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/postgres/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/postgres/fields/array.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/postgres/fields/array.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/postgres/fields/ranges.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/postgres/fields/ranges.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/postgres/forms/ranges.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/postgres/forms/ranges.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/postgres/indexes.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/postgres/indexes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/postgres/locale/hy/LC_MESSAGES/django.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/postgres/locale/hy/LC_MESSAGES/django.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/postgres/search.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/postgres/search.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/postgres/serializers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/redirects/locale/hy/LC_MESSAGES/django.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/redirects/locale/hy/LC_MESSAGES/django.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/sessions/backends/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/sessions/backends/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/sessions/backends/file.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/sessions/backends/file.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/sessions/locale/hy/LC_MESSAGES/django.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/sessions/locale/hy/LC_MESSAGES/django.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/sessions/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/sessions/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/sitemaps/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/sitemaps/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/sitemaps/management/commands/ping_google.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/sitemaps/management/commands/ping_google.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/sites/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/sites/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/staticfiles/finders.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/staticfiles/finders.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/staticfiles/management/commands/collectstatic.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/staticfiles/management/commands/collectstatic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/staticfiles/storage.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/staticfiles/storage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/staticfiles/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/contrib/staticfiles/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/core/cache/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/core/cache/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/core/cache/backends/db.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/core/cache/backends/db.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/core/cache/backends/filebased.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/core/cache/backends/filebased.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/core/cache/backends/locmem.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/core/cache/backends/locmem.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/core/cache/backends/memcached.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/core/cache/backends/memcached.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/core/checks/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/core/checks/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/core/checks/model_checks.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/core/checks/model_checks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/core/checks/registry.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/core/checks/registry.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/core/checks/security/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/core/checks/security/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/core/checks/translation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/core/files/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/core/files/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/core/files/images.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/core/files/images.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/core/files/storage.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/core/files/storage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/core/handlers/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/core/handlers/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/core/handlers/exception.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/core/handlers/exception.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/core/handlers/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/core/handlers/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/core/mail/backends/smtp.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/core/mail/backends/smtp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/core/mail/message.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/core/mail/message.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/core/management/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/core/management/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/core/management/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/core/management/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/core/management/color.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/core/management/color.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/core/management/commands/check.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/core/management/commands/check.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/core/management/commands/compilemessages.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/core/management/commands/compilemessages.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/core/management/commands/createcachetable.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/core/management/commands/createcachetable.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/core/management/commands/dbshell.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/core/management/commands/dbshell.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/core/management/commands/diffsettings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/core/management/commands/diffsettings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/core/management/commands/dumpdata.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/core/management/commands/dumpdata.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/core/management/commands/flush.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/core/management/commands/flush.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/core/management/commands/inspectdb.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/core/management/commands/inspectdb.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/core/management/commands/loaddata.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/core/management/commands/loaddata.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/core/management/commands/makemessages.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/core/management/commands/makemessages.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/core/management/commands/makemigrations.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/core/management/commands/makemigrations.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/core/management/commands/migrate.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/core/management/commands/migrate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/core/management/commands/runserver.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/core/management/commands/runserver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/core/management/commands/sendtestemail.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/core/management/commands/sendtestemail.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/core/management/commands/shell.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/core/management/commands/shell.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/core/management/commands/showmigrations.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/core/management/commands/showmigrations.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/core/management/commands/sqlmigrate.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/core/management/commands/sqlmigrate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/core/management/commands/squashmigrations.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/core/management/commands/squashmigrations.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/core/management/commands/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/core/management/commands/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/core/management/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/core/management/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/core/paginator.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/core/paginator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/core/serializers/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/core/serializers/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/core/serializers/python.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/core/serializers/python.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/core/serializers/xml_serializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/core/serializers/xml_serializer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/core/validators.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/core/validators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/backends/base/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/backends/base/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/backends/base/creation.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/backends/base/creation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/backends/base/features.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/backends/base/features.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/backends/base/introspection.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/backends/base/introspection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/backends/base/operations.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/backends/base/operations.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/backends/base/schema.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/backends/base/schema.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/backends/ddl_references.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/backends/ddl_references.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/backends/dummy/features.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/backends/dummy/features.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/backends/mysql/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/backends/mysql/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/backends/mysql/creation.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/backends/mysql/creation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/backends/mysql/features.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/backends/mysql/features.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/backends/mysql/introspection.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/backends/mysql/introspection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/backends/mysql/operations.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/backends/mysql/operations.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/backends/mysql/schema.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/backends/mysql/schema.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/backends/oracle/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/backends/oracle/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/backends/oracle/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/backends/oracle/client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/backends/oracle/creation.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/backends/oracle/creation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/backends/oracle/features.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/backends/oracle/features.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/backends/oracle/introspection.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/backends/oracle/introspection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/backends/oracle/operations.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/backends/oracle/operations.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/backends/oracle/schema.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/backends/oracle/schema.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/backends/postgresql/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/backends/postgresql/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/backends/postgresql/creation.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/backends/postgresql/creation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/backends/postgresql/features.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/backends/postgresql/features.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/backends/postgresql/introspection.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/backends/postgresql/introspection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/backends/postgresql/operations.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/backends/postgresql/operations.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/backends/postgresql/schema.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/backends/postgresql/schema.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/backends/sqlite3/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/backends/sqlite3/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/backends/sqlite3/creation.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/backends/sqlite3/creation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/backends/sqlite3/features.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/backends/sqlite3/features.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/backends/sqlite3/introspection.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/backends/sqlite3/introspection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/backends/sqlite3/operations.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/backends/sqlite3/operations.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/backends/sqlite3/schema.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/backends/sqlite3/schema.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/backends/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/backends/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/migrations/autodetector.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/migrations/autodetector.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/migrations/executor.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/migrations/executor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/migrations/graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/migrations/graph.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/migrations/loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/migrations/loader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/migrations/operations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/migrations/operations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/migrations/operations/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/migrations/operations/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/migrations/operations/fields.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/migrations/operations/fields.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/migrations/operations/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/migrations/operations/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/migrations/operations/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/migrations/operations/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/migrations/optimizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/migrations/optimizer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/migrations/questioner.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/migrations/questioner.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/migrations/recorder.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/migrations/recorder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/migrations/serializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/migrations/serializer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/migrations/state.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/migrations/state.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/migrations/writer.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/migrations/writer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/models/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/models/aggregates.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/models/aggregates.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/models/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/models/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/models/constraints.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/models/deletion.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/models/deletion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/models/expressions.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/models/expressions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/models/fields/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/models/fields/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/models/fields/related.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/models/fields/related.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/models/fields/related_descriptors.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/models/fields/related_descriptors.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/models/fields/reverse_related.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/models/fields/reverse_related.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/models/functions/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/models/functions/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/models/functions/comparison.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/models/functions/comparison.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/models/functions/datetime.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/models/functions/datetime.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/models/functions/math.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/models/functions/mixins.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/models/functions/text.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/models/functions/text.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/models/functions/window.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/models/functions/window.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/models/indexes.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/models/indexes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/models/options.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/models/options.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/models/query.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/models/query.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/models/query_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/models/query_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/models/sql/compiler.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/models/sql/compiler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/models/sql/datastructures.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/models/sql/datastructures.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/models/sql/query.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/models/sql/query.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/models/sql/subqueries.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/models/sql/subqueries.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/transaction.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/transaction.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/db/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/forms/fields.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/forms/fields.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/forms/formsets.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/forms/formsets.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/forms/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/forms/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/forms/widgets.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/forms/widgets.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/http/request.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/http/request.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/http/response.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/http/response.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/middleware/csrf.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/middleware/csrf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/middleware/security.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/middleware/security.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/template/context.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/template/context.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/template/defaultfilters.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/template/defaultfilters.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/template/defaulttags.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/template/defaulttags.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/template/engine.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/template/engine.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/templatetags/i18n.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/templatetags/i18n.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/test/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/test/client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/test/html.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/test/html.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/test/runner.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/test/runner.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/test/selenium.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/test/selenium.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/test/testcases.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/test/testcases.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/test/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/test/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/urls/converters.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/urls/converters.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/urls/resolvers.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/urls/resolvers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/utils/_os.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/utils/_os.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/utils/autoreload.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/utils/autoreload.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/utils/cache.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/utils/cache.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/utils/datastructures.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/utils/datastructures.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/utils/datetime_safe.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/utils/datetime_safe.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/utils/deprecation.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/utils/deprecation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/utils/encoding.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/utils/encoding.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/utils/feedgenerator.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/utils/feedgenerator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/utils/functional.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/utils/functional.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/utils/html.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/utils/html.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/utils/http.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/utils/http.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/utils/inspect.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/utils/inspect.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/utils/numberformat.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/utils/numberformat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/utils/safestring.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/utils/safestring.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/utils/text.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/utils/text.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/utils/timezone.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/utils/timezone.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/utils/translation/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/utils/translation/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/utils/translation/reloader.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/utils/translation/trans_real.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/utils/translation/trans_real.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/views/debug.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/views/debug.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/views/defaults.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/views/defaults.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/views/generic/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/views/generic/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/views/generic/dates.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/views/generic/dates.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/views/i18n.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/views/i18n.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/views/templates/default_urlconf.html" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/views/templates/default_urlconf.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/views/templates/technical_500.html" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Lib/site-packages/django/views/templates/technical_500.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/Scripts/django-admin.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/Scripts/django-admin.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_log/venv/pip-selfcheck.json" beforeDir="false" afterPath="$PROJECT_DIR$/../learning_log/venv/pip-selfcheck.json" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db.sqlite3" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db.sqlite3" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db.sqlite3" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/article/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/article/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="64" column="16" lean-forward="true" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#44#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="268">
+              <caret line="138" column="40" lean-forward="true" selection-start-line="138" selection-start-column="40" selection-end-line="138" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/requirements.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/article/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/comment/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="26" column="29" lean-forward="true" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+              <folding>
+                <element signature="e#29#57#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/comment/forms.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#24#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/comment/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/comment/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="343">
+              <caret line="25" column="48" lean-forward="true" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+              <folding>
+                <element signature="e#28#92#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/article/detail.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="e#2408#2427#0#HTML" expanded="true" />
+                <element signature="e#2519#2539#0#HTML" expanded="true" />
+                <element signature="e#2664#2709#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/storm/models.py" />
+        <option value="$PROJECT_DIR$/article/admin.py" />
+        <option value="$PROJECT_DIR$/templates/footer.html" />
+        <option value="$PROJECT_DIR$/article/form.py" />
+        <option value="$PROJECT_DIR$/templates/article/create.html" />
+        <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/templates/article/update.html" />
+        <option value="$PROJECT_DIR$/article/urls.py" />
+        <option value="$PROJECT_DIR$/templates/userprofile/register.html" />
+        <option value="$PROJECT_DIR$/templates/userprofile/login.html" />
+        <option value="$PROJECT_DIR$/userprofile/forms.py" />
+        <option value="$PROJECT_DIR$/userprofile/urls.py" />
+        <option value="$PROJECT_DIR$/templates/header.html" />
+        <option value="$PROJECT_DIR$/userprofile/admin.py" />
+        <option value="$PROJECT_DIR$/userprofile/models.py" />
+        <option value="$PROJECT_DIR$/userprofile/views.py" />
+        <option value="$PROJECT_DIR$/templates/userprofile/edit.html" />
+        <option value="$PROJECT_DIR$/templates/article/list.html" />
+        <option value="$PROJECT_DIR$/blog/urls.py" />
+        <option value="$PROJECT_DIR$/comment/models.py" />
+        <option value="$PROJECT_DIR$/comment/forms.py" />
+        <option value="$PROJECT_DIR$/comment/urls.py" />
+        <option value="$PROJECT_DIR$/comment/views.py" />
+        <option value="$PROJECT_DIR$/article/models.py" />
+        <option value="$PROJECT_DIR$/templates/article/detail.html" />
+        <option value="$PROJECT_DIR$/article/views.py" />
+        <option value="$PROJECT_DIR$/blog/settings.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="175" />
+    <option name="y" value="48" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="sqlite" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="blog" type="Python.DjangoServer" factoryName="Django server">
+      <module name="blog" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="blog.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2e6d44f0-5354-4cdb-ac92-b18069edf3fc" name="Default Changelist" comment="" />
+      <created>1573093759199</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573093759199</updated>
+      <workItem from="1573093762415" duration="28854000" />
+      <workItem from="1573528142525" duration="28786000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="57640000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Console" order="7" weight="0.329718" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" weight="0.329718" />
+      <window_info anchor="bottom" id="manage.py@blog" order="10" weight="0.329718" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.329718" />
+      <window_info anchor="bottom" id="Python Console" order="14" weight="0.329718" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32995737" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/8fd0bb8e-545f-48d0-a721-442e6b560c89/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/storm/migrations/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/storm/models.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+          <folding>
+            <element signature="e#196#202#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/article/create.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="26" column="71" selection-start-line="26" selection-start-column="71" selection-end-line="26" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="27" column="57" selection-start-line="27" selection-start-column="57" selection-end-line="27" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/article/update.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/article/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/article/form.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/userprofile/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="547">
+          <caret line="22" column="103" selection-start-line="22" selection-start-column="103" selection-end-line="22" selection-end-column="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://8fd0bb8e-545f-48d0-a721-442e6b560c89/schema/main/table/sqlite_master">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db.sqlite3">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/4879e9d3-bda6-4b01-b735-f40f8990e92a/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://4879e9d3-bda6-4b01-b735-f40f8990e92a/schema/main/table/auth_group_permissions">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/userprofile/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="32" column="70" selection-start-line="32" selection-start-column="70" selection-end-line="32" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://4879e9d3-bda6-4b01-b735-f40f8990e92a/schema/main/table/article_articlepost">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://4879e9d3-bda6-4b01-b735-f40f8990e92a/schema/main/table/django_session">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://4879e9d3-bda6-4b01-b735-f40f8990e92a/schema/main/table/django_admin_log">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://4879e9d3-bda6-4b01-b735-f40f8990e92a/schema/main/table/auth_user_user_permissions">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://4879e9d3-bda6-4b01-b735-f40f8990e92a/schema/main/table/auth_user_groups">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://4879e9d3-bda6-4b01-b735-f40f8990e92a/schema/main/table/django_migrations">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://4879e9d3-bda6-4b01-b735-f40f8990e92a/schema/main/table/django_content_type">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://4879e9d3-bda6-4b01-b735-f40f8990e92a/schema/main/table/sqlite_master">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://4879e9d3-bda6-4b01-b735-f40f8990e92a/schema/main/table/sqlite_sequence">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://4879e9d3-bda6-4b01-b735-f40f8990e92a/schema/main/table/auth_permission">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/article/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/userprofile/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/userprofile/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="22" column="93" selection-start-line="22" selection-start-column="93" selection-end-line="22" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://4879e9d3-bda6-4b01-b735-f40f8990e92a/schema/main/table/auth_user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/avatar/20191112/ai.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/userprofile/edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+          <folding>
+            <element signature="e#398#441#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/userprofile/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="101" column="41" selection-start-line="101" selection-start-column="41" selection-end-line="101" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/userprofile/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/userprofile/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+          <folding>
+            <element signature="e#8#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/article/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="115" column="103" selection-start-line="115" selection-start-column="103" selection-end-line="115" selection-end-column="103" />
+          <folding>
+            <element signature="e#1351#1369#0#HTML" expanded="true" />
+            <element signature="e#1473#1491#0#HTML" expanded="true" />
+            <element signature="e#986#1006#0#HTML" expanded="true" />
+            <element signature="e#1246#1253#0#HTML" expanded="true" />
+            <element signature="e#2178#2185#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="29" column="8" lean-forward="true" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+          <folding>
+            <element signature="e#628#660#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comment/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="26" column="29" lean-forward="true" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+          <folding>
+            <element signature="e#29#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comment/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comment/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comment/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="25" column="48" lean-forward="true" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+          <folding>
+            <element signature="e#28#92#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/article/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/article/detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#2408#2427#0#HTML" expanded="true" />
+            <element signature="e#2519#2539#0#HTML" expanded="true" />
+            <element signature="e#2664#2709#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/article/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="64" column="16" lean-forward="true" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/article/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="138" column="40" lean-forward="true" selection-start-line="138" selection-start-column="40" selection-end-line="138" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+</project>

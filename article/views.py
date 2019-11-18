@@ -17,30 +17,31 @@ from comment.models import Comment
 from django.db.models import Q
 
 # 重写文章列表
+@login_required(login_url='/userprofile/login/')
 def article_list(request):
     search = request.GET.get('search')
     order = request.GET.get('order')
     # 用户搜索逻辑
     if search:
-        if order == 'total_views':
+         if order == 'total_views':
             # 用 Q对象 进行联合搜索
-            article_list = ArticlePost.objects.filter(
+             article_list = ArticlePost.objects.filter(author=request.user).filter(
                 Q(title__icontains=search) |
                 Q(body__icontains=search)
-            ).order_by('-total_views')
-        else:
-            article_list = ArticlePost.objects.filter(
+              ).order_by('-total_views')
+         else:
+             article_list = ArticlePost.objects.filter(author=request.user).filter(
                 Q(title__icontains=search) |
                 Q(body__icontains=search)
-            )
+              )
     else:
         # 将 search 参数重置为空
         search = ''
         if order == 'total_views':
-            article_list = ArticlePost.objects.all().order_by('-total_views')
+            article_list = ArticlePost.objects.filter(author=request.user).order_by('-total_views')
         else:
-            article_list = ArticlePost.objects.all()
-
+            article_list = ArticlePost.objects.filter(author=request.user)
+    # article_list=ArticlePost.objects.filter(author=request.user)
     paginator = Paginator(article_list, 3)
     page = request.GET.get('page')
     articles = paginator.get_page(page)
@@ -49,7 +50,7 @@ def article_list(request):
     context = {'articles': articles, 'order': order, 'search': search}
 
     return render(request, 'article/list.html', context)
-
+@login_required(login_url='/userprofile/login/')
 def article_detail(request,id):
     article = ArticlePost.objects.get(id=id)
     # 取出文章评论
@@ -108,6 +109,7 @@ def article_create(request):
         return render(request, 'article/create.html', context)
 
 # 删文章
+@login_required(login_url='/userprofile/login/')
 def article_delete(request, id):
     # 根据 id 获取需要删除的文章
     article = ArticlePost.objects.get(id=id)
@@ -116,6 +118,7 @@ def article_delete(request, id):
     # 完成删除后返回文章列表
     return redirect("article:article_list")
 # 安全删除文章
+@login_required(login_url='/userprofile/login/')
 def article_safe_delete(request, id):
     if request.method == 'POST':
         article = ArticlePost.objects.get(id=id)

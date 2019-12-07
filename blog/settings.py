@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'v$y+$lmm_8ep06qb=(@0fo^w%rbmxtzga+%e60&0^zsd3*ev(q'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG =False
+DEBUG =True
 
 # 允许的服务器
 ALLOWED_HOSTS = ['*']
@@ -42,6 +42,8 @@ INSTALLED_APPS = [
     'article',
     'userprofile',
     'comment',
+    'taggit',
+
 
 ]
 

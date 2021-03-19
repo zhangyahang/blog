@@ -6,7 +6,7 @@ django-multiselectfield==0.1.8
 django-password-reset==2.0
 django-redis==4.10.0
 django-users2==0.2.2
-djangorestframework==3.10.3
+djangorestframework==3.11.2
 djangorestframework-jwt==1.11.0
 Markdown==3.0.1
 Pillow==5.4.1

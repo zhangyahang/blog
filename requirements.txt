@@ -9,5 +9,5 @@ django-users2==0.2.2
 djangorestframework==3.10.3
 djangorestframework-jwt==1.11.0
 Markdown==3.0.1
-Pillow==5.4.1
+Pillow==8.2.0
 
